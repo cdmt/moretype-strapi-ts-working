@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fonts",
+  "info": {
+    "name": "font"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
